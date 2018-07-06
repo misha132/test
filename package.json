@@ -1,0 +1,30 @@
+{
+  "name": "testhrab",
+  "version": "1.0.0",
+  "description": "Wayfinder end-to-end test automation scripts",
+  "keywords": [
+    "Protractor",
+    "Cucumber"
+  ],
+  "author": "Hrab Mykhailo <misha132hrab@gmail.com>",
+  "license": "MIT",
+  "repository": "",
+  "devDependencies": {
+    "protractor": "5.3.1",
+    "protractor-jasmine2-screenshot-reporter": "0.5.0",
+    "chai": "4.1.2",
+    "chai-as-promised": "7.1.1",
+    "cucumber": "4.1.0",
+    "protractor-cucumber-framework": "^5.0.0",
+    "cucumber-html-reporter": "^4.0.2",
+    "mkdirp": "^0.5.1",
+    "xmlhttprequest": "^1.8.0"
+  },
+  "scripts": {
+    "webdriver-update": "webdriver-manager update",
+    "webdriver": "webdriver-manager start",
+    "test": "protractor conf.js",
+    "test-jenkins": "protractor conf-jenkins.js",
+    "test-vert": "protractor conf-vert.js"
+  }
+}
