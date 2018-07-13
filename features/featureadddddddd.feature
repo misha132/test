@@ -16,7 +16,6 @@ Feature: test-feature
     Then Result "#gobutton" contains "Go!" text
     Then Result "h2" is equal to "<output>"
 
-123
     Examples:
 
       | first | second | output |
